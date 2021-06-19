@@ -1,7 +1,8 @@
 /**
- * Инициализация слайдера для карточек на странице региона
+ * Инициализация слайдера для карточек
  */
- export default (slСontainer, slItems) => {
+
+export default (slСontainer, slItems) => {
     const $container = document.querySelector(slСontainer)
 
     if(!$container || document.body.clientWidth > 767) return
